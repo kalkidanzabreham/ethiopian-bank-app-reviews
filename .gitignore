@@ -1,0 +1,45 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.DS_Store
+
+# --- Virtual env ---
+venv/
+env/
+.venv/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# --- Data files ---
+data/raw/*
+data/processed/*
+data/sentiment/*
+!data/.gitkeep
+
+# --- Logs ---
+logs/
+*.log
+
+# --- OS files ---
+Thumbs.db
+.DS_Store
+
+# --- VSCode ---
+.vscode/
+.history/
+
+# --- Environment files ---
+.env
+*.sqlite3
+
+# --- Models ---
+models/
+*.bin
+
+# --- Cache ---
+cache/
